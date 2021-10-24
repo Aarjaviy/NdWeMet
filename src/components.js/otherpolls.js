@@ -1,12 +1,13 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import polls from "./polls";
 import { FaEllipsisH } from "react-icons/fa";
 import Popup1 from "./popup1";
+import {FiArrowRight} from "react-icons/fi";
 
 function createEntry(polls) {
     return (
         <Entry
-            key={polls.id}
+            id={polls.id}
             tag1={polls.tag1}
             tag2={polls.tag2}
             tag3={polls.tag3}
@@ -21,7 +22,7 @@ function createEntry(polls) {
 function Entry(props) {
     const [show, setshow] = useState(false)
 
-    const togglePanel=()=>{
+    const togglePanel = () => {
         setshow(!show)
     }
 
@@ -37,10 +38,12 @@ function Entry(props) {
                 <div className="polls-question polls-question-head">{props.question}</div>
                 <div className="polls-question polls-question-option1">
                     <div >{props.option1}</div>
-                    <button className="polls-button"><FaEllipsisH onClick={togglePanel}/></button>
+                    <button className="polls-button"><FaEllipsisH onClick={togglePanel} /></button>
                 </div>
-                {show? (
-                    <Popup1/>
+                {show ? (
+                    <div className="result-popup">
+                        <Popup1 setshow={setshow} />
+                    </div>
                 ) : null}
                 <div className="polls-question polls-question-option2">
                     <div >{props.option2}</div>
@@ -51,6 +54,15 @@ function Entry(props) {
                     <button className="polls-button"><FaEllipsisH /></button>
                 </div>
             </div>
+            {props.id==6 ? <div className="hide-polls">
+                <div className="hide-polls-div">
+                    <div className="hide-polls-text">Answer 5 polls to unlock more</div>
+                    <button className="hide-polls-btn">
+                    <div>Answer Polls</div>
+                    <div ><FiArrowRight/></div>
+                    </button> 
+                </div>
+            </div> : null}
         </div>
     );
 }

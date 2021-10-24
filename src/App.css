@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap');
 
 body{
   font-family: "Lato", sans-serif !important;
@@ -6,6 +8,9 @@ body{
 
 .navbar {
   background: #ff007d;
+  display: flex;
+}
+.navbar-flex {
   display: flex;
 }
 
@@ -112,6 +117,7 @@ body{
   background-color: #ff007d;
   padding: 1% 7% 1% 7%;
   border-radius: 10px;
+  border: none;
   margin-left: 35%;
   margin-bottom: 10px;
 }
@@ -121,11 +127,11 @@ body{
   margin: 5%;
   justify-content: space-between;
   align-items: center;
-  font-size: x-large;
+  font-size: larger;
 }
 
 .polls-my-b{
-  font-size: large;
+  font-size: medium;
   border-radius: 5px;
   background-color: white;
   display: flex;
@@ -134,7 +140,7 @@ body{
 .polls-men{
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .polls-men-heading{
@@ -200,4 +206,51 @@ body{
 
 .polls-question-option3{
   background: linear-gradient(to right, lightgrey 0%, lightgrey 55%, white 55%, white  100%);
+}
+
+.result-popup {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hide-polls {
+  position: relative;
+  top: -420px;
+  width: 100%;
+  height: 420px;
+  opacity: 0.95;
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide-polls-btn {
+  padding: 2% 4%;
+  margin-top: 20px;
+  border-radius: 5px;
+  border:none;
+  background-color: #ff007d;
+  color: white;
+  margin-left: 30%;
+  font-size: larger;
+  font-weight: bolder;
+  display: flex;
+}
+
+.hide-polls-div{
+  background-color: white;
+  width: 96%;
+  height: 170px;
+}
+
+.hide-polls-text{
+  text-align: center;
+  margin-top: 40px;
+  font-size: larger;
+  font-weight: bolder;
 }

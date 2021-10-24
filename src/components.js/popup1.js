@@ -14,6 +14,7 @@ const popup1=({setshow})=>{
                 <ImCross onClick={closePanel}/>
                 Result
             </div>
+            
         </div>
     )
 }

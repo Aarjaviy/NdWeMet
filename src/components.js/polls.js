@@ -28,6 +28,36 @@ const polls = [
         option1 : "My choice of partner will be welcomed by the family",
         option2 : "My choice of partner will be welcomed by the family",
         option3 : "My choice of partner will be welcomed by the family",
+    },
+    {
+        id:4,
+        tag1:"Appearances",
+        tag2:"Family",
+        tag3:"Friends",
+        question: "Parents & family are important. However, I am keen to know their role in saying ‘yes’ to us being a couple if we decide to be in a relation",
+        option1 : "My choice of partner will be welcomed by the family",
+        option2 : "My choice of partner will be welcomed by the family",
+        option3 : "My choice of partner will be welcomed by the family",
+    },
+    {
+        id:5,
+        tag1:"Appearances",
+        tag2:"Family",
+        tag3:"Friends",
+        question: "Parents & family are important. However, I am keen to know their role in saying ‘yes’ to us being a couple if we decide to be in a relation",
+        option1 : "My choice of partner will be welcomed by the family",
+        option2 : "My choice of partner will be welcomed by the family",
+        option3 : "My choice of partner will be welcomed by the family",
+    },
+    {
+        id:6,
+        tag1:"Appearances",
+        tag2:"Family",
+        tag3:"Friends",
+        question: "Parents & family are important. However, I am keen to know their role in saying ‘yes’ to us being a couple if we decide to be in a relation",
+        option1 : "My choice of partner will be welcomed by the family",
+        option2 : "My choice of partner will be welcomed by the family",
+        option3 : "My choice of partner will be welcomed by the family",
     }
   ];
   
