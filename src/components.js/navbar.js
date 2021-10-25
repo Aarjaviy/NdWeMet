@@ -1,5 +1,6 @@
 import React from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
+import credits from "../Credits.png";
 
 const navbar = () => {
     return (
@@ -9,8 +10,7 @@ const navbar = () => {
                 <div className="navbar-name">Polls</div>
             </div>
             <div className="navbar2">
-                <span>c</span>
-                <span>0</span>
+                <img src={credits}/>
             </div>
         </div>
     )

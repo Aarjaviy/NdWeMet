@@ -38,6 +38,7 @@ body{
 
 .navbar2{
   padding: 0 5% 0 5%;
+  height: 5%;
 }
 
 .cross{
@@ -88,9 +89,6 @@ body{
 
 .options{
   display: flex;
-}
-
-.option-1, .option-2{
   justify-content: space-between;
   width: 100%;
   margin-top: 10px;
@@ -100,6 +98,7 @@ body{
   padding: 2%;
   align-items: center;
 }
+
 
 .option-text{
   justify-content: space-between;
@@ -112,6 +111,10 @@ body{
   border-radius: 5px;
 }
 
+.option_content{
+  width: 100%;
+}
+
 .select-tags{
   width: 100%;
   display: flex;
@@ -120,12 +123,18 @@ body{
   margin-top: 20px;
 }
 
+
 .select-tag-content{
   border: 2px solid black;
   border-radius: 30px;
   padding: 0% 2% 0% 2%;
   margin-right: 4.5%;
   margin-bottom: 4%;
+  cursor: pointer;
+}
+
+.selectedTag-content {
+  background-color: pink;
 }
 
 .select-tag-button{
