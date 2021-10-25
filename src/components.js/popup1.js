@@ -23,6 +23,78 @@ const popup1 = ({ setshow }) => {
                 <div className="popup11-icon"><BsSuitHeart size="30px"/></div>
                 <div ><button className="popup11-chat">Chat</button></div>
             </div>
+            <div className="popup11">
+                <div className="popup11-img"></div>
+                <div className="popup11-body">
+                    <div className="popup11-name">Female Nischal</div>
+                    <div className="popup11-detail">25 | 6'8 | City</div>
+                </div>
+                <div className="popup11-icon"><BsSuitHeart size="30px"/></div>
+                <div ><button className="popup11-chat">Chat</button></div>
+            </div>
+            <div className="popup11">
+                <div className="popup11-img"></div>
+                <div className="popup11-body">
+                    <div className="popup11-name">Female Nischal</div>
+                    <div className="popup11-detail">25 | 6'8 | City</div>
+                </div>
+                <div className="popup11-icon"><BsSuitHeart size="30px"/></div>
+                <div ><button className="popup11-chat">Chat</button></div>
+            </div>
+            <div className="popup11">
+                <div className="popup11-img"></div>
+                <div className="popup11-body">
+                    <div className="popup11-name">Female Nischal</div>
+                    <div className="popup11-detail">25 | 6'8 | City</div>
+                </div>
+                <div className="popup11-icon"><BsSuitHeart size="30px"/></div>
+                <div ><button className="popup11-chat">Chat</button></div>
+            </div>
+            <div className="popup11">
+                <div className="popup11-img"></div>
+                <div className="popup11-body">
+                    <div className="popup11-name">Female Nischal</div>
+                    <div className="popup11-detail">25 | 6'8 | City</div>
+                </div>
+                <div className="popup11-icon"><BsSuitHeart size="30px"/></div>
+                <div ><button className="popup11-chat">Chat</button></div>
+            </div>
+            <div className="popup11">
+                <div className="popup11-img"></div>
+                <div className="popup11-body">
+                    <div className="popup11-name">Female Nischal</div>
+                    <div className="popup11-detail">25 | 6'8 | City</div>
+                </div>
+                <div className="popup11-icon"><BsSuitHeart size="30px"/></div>
+                <div ><button className="popup11-chat">Chat</button></div>
+            </div>
+            <div className="popup11">
+                <div className="popup11-img"></div>
+                <div className="popup11-body">
+                    <div className="popup11-name">Female Nischal</div>
+                    <div className="popup11-detail">25 | 6'8 | City</div>
+                </div>
+                <div className="popup11-icon"><BsSuitHeart size="30px"/></div>
+                <div ><button className="popup11-chat">Chat</button></div>
+            </div>
+            <div className="popup11">
+                <div className="popup11-img"></div>
+                <div className="popup11-body">
+                    <div className="popup11-name">Female Nischal</div>
+                    <div className="popup11-detail">25 | 6'8 | City</div>
+                </div>
+                <div className="popup11-icon"><BsSuitHeart size="30px"/></div>
+                <div ><button className="popup11-chat">Chat</button></div>
+            </div>
+            <div className="popup11">
+                <div className="popup11-img"></div>
+                <div className="popup11-body">
+                    <div className="popup11-name">Female Nischal</div>
+                    <div className="popup11-detail">25 | 6'8 | City</div>
+                </div>
+                <div className="popup11-icon"><BsSuitHeart size="30px"/></div>
+                <div ><button className="popup11-chat">Chat</button></div>
+            </div>
         </div>
     )
 }
