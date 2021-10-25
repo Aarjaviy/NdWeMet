@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const navbar = () => {
     return (
-        <div className="navbar">
+        <div className="navbar fixed-top">
             <div className="navbar-flex">
                 <div className="navbar hicon"><GiHamburgerMenu size="25" /></div>
                 <div className="navbar navbar-name">Polls</div>
